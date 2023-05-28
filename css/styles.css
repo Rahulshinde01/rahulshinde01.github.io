@@ -1,0 +1,120 @@
+body {
+  background-color: #e6e8e1;
+  margin: auto;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 1.3em;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #11999e;
+}
+
+.top-container {
+  position: relative;
+  margin-top: 200px;
+}
+
+.profileimg {
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: -75px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.boy {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.script {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.btn {
+  background: #62aee0;
+  background-image: -webkit-linear-gradient(top, #62aee0, #3d7394);
+  background-image: -moz-linear-gradient(top, #62aee0, #3d7394);
+  background-image: -ms-linear-gradient(top, #62aee0, #3d7394);
+  background-image: -o-linear-gradient(top, #62aee0, #3d7394);
+  background-image: linear-gradient(to bottom, #62aee0, #3d7394);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: Georgia;
+  color: #eff6f7;
+  font-size: 21px;
+  padding: 2px 11px 7px 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #594e59;
+  background-image: -webkit-linear-gradient(top, #594e59, #131414);
+  background-image: -moz-linear-gradient(top, #594e59, #131414);
+  background-image: -ms-linear-gradient(top, #594e59, #131414);
+  background-image: -o-linear-gradient(top, #594e59, #131414);
+  background-image: linear-gradient(to bottom, #594e59, #131414);
+  text-decoration: none;
+}
+
+.bottom-container {
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 30px auto 0 auto;
+  background-color: #e6c8be;
+  color: rgb(52, 50, 50);
+}
+
+.linkedin-link,.twitter-link, .github-link{
+    margin-left: 20px;
+
+}
+
+.twitter {
+  height: 40px;
+  width: 40px;
+}
